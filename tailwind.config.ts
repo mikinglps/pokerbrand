@@ -8,10 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'main': '#2d323c',
+        'red-main': '#fc0002',
+        'red-main-hover': '#d41b1d',
+        'section-title': '#c9c9ca',
+        'first-gradient': "#161619",
+        'final-gradient': '#2d323c',
+        'planos-titulo': '#bac7e0',
+        'success': '#009e2f',
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'banner': "url('./wall2')",
       },
     },
   },
